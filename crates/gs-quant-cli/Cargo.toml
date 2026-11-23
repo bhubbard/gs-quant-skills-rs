@@ -1,0 +1,26 @@
+[package]
+name = "gs-quant-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Pure Rust CLI for gs-quant skill management, local scenario pricing, realized volatility, and offline backtesting."
+
+[[bin]]
+name = "gs-quant-skills"
+path = "src/main.rs"
+doc = false
+
+[lints]
+workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+chrono = { workspace = true }
+clap = { workspace = true }
+gs-quant-core = { workspace = true }
+gs-quant-skills = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }

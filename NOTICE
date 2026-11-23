@@ -1,0 +1,18 @@
+gs-quant-skills-rs (Pure Rust Fork of gs_quant.skills + Local Quant Engine)
+Derived from https://github.com/goldmansachs/gs-quant/tree/master/gs_quant/skills
+under the Apache License, Version 2.0.
+
+Original Work:
+  Goldman Sachs gs-quant (`gs_quant/skills`)
+  Copyright 2026 Goldman Sachs
+  Licensed under the Apache License, Version 2.0
+
+Modifications and Pure Rust Implementation:
+  Copyright 2026 Brandon Hubbard
+  - Pure Rust skill installer CLI (`gs-quant-skills` crate and `gs-quant-cli` binary)
+    replacing Python (`gs_quant/skills/__main__.py`) with embedded skill fallback.
+  - Pure Rust offline pricing, scenario, volatility, risk-measure, and stateful
+    backtesting library (`gs-quant-core`) operating on user-supplied CSV or
+    in-memory market data without requiring Goldman Sachs Marquee API credentials.
+  - Rust-adapted AI skill documentation (`skills/gs-quant-rs/`) incorporating
+    empirical and workflow insights from Unbiased Trading's analysis.

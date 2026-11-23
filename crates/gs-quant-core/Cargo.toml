@@ -1,0 +1,21 @@
+[package]
+name = "gs-quant-core"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Pure Rust offline pricing, scenario, realized volatility, risk measures, and stateful backtesting engine modeled on Goldman Sachs gs-quant."
+
+[lints]
+workspace = true
+
+[dependencies]
+chrono = { workspace = true }
+csv = { workspace = true }
+serde = { workspace = true }
+thiserror = { workspace = true }
+
+[dev-dependencies]
+serde_json = { workspace = true }
