@@ -20,8 +20,8 @@ authors = ["Brandon Hubbard <brandon@brandonhubbard.com>"]
 repository = "https://github.com/bhubbard/gs-quant-skills-rs"
 
 [workspace.dependencies]
-gs-quant-core = { path = "crates/gs-quant-core" }
-gs-quant-skills = { path = "crates/gs-quant-skills" }
+gs-quant-core = { version = "0.1.0", path = "crates/gs-quant-core" }
+gs-quant-skills = { version = "0.1.0", path = "crates/gs-quant-skills" }
 
 anyhow = "1"
 chrono = { version = "0.4", features = ["serde"] }

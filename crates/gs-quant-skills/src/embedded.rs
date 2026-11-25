@@ -21,39 +21,39 @@ pub struct EmbeddedSkill {
 const GS_QUANT_RS_FILES: &[EmbeddedFile] = &[
     EmbeddedFile {
         relative_path: "SKILL.md",
-        contents: include_str!("../../../skills/gs-quant-rs/SKILL.md"),
+        contents: include_str!("../skills/gs-quant-rs/SKILL.md"),
     },
     EmbeddedFile {
         relative_path: "backtesting.md",
-        contents: include_str!("../../../skills/gs-quant-rs/backtesting.md"),
+        contents: include_str!("../skills/gs-quant-rs/backtesting.md"),
     },
     EmbeddedFile {
         relative_path: "datasets.md",
-        contents: include_str!("../../../skills/gs-quant-rs/datasets.md"),
+        contents: include_str!("../skills/gs-quant-rs/datasets.md"),
     },
     EmbeddedFile {
         relative_path: "errors.md",
-        contents: include_str!("../../../skills/gs-quant-rs/errors.md"),
+        contents: include_str!("../skills/gs-quant-rs/errors.md"),
     },
     EmbeddedFile {
         relative_path: "instruments.md",
-        contents: include_str!("../../../skills/gs-quant-rs/instruments.md"),
+        contents: include_str!("../skills/gs-quant-rs/instruments.md"),
     },
     EmbeddedFile {
         relative_path: "pricing.md",
-        contents: include_str!("../../../skills/gs-quant-rs/pricing.md"),
+        contents: include_str!("../skills/gs-quant-rs/pricing.md"),
     },
     EmbeddedFile {
         relative_path: "results.md",
-        contents: include_str!("../../../skills/gs-quant-rs/results.md"),
+        contents: include_str!("../skills/gs-quant-rs/results.md"),
     },
     EmbeddedFile {
         relative_path: "risk-measures.md",
-        contents: include_str!("../../../skills/gs-quant-rs/risk-measures.md"),
+        contents: include_str!("../skills/gs-quant-rs/risk-measures.md"),
     },
     EmbeddedFile {
         relative_path: "scenarios.md",
-        contents: include_str!("../../../skills/gs-quant-rs/scenarios.md"),
+        contents: include_str!("../skills/gs-quant-rs/scenarios.md"),
     },
 ];
 
