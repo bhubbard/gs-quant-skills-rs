@@ -12,16 +12,17 @@ default-members = [
 ]
 
 [workspace.package]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 rust-version = "1.87"
 license = "Apache-2.0"
 authors = ["Brandon Hubbard <brandon@brandonhubbard.com>"]
 repository = "https://github.com/bhubbard/gs-quant-skills-rs"
+readme = "README.md"
 
 [workspace.dependencies]
-gs-quant-core = { version = "0.1.0", path = "crates/gs-quant-core" }
-gs-quant-skills = { version = "0.1.0", path = "crates/gs-quant-skills" }
+gs-quant-core = { version = "0.1.1", path = "crates/gs-quant-core" }
+gs-quant-skills = { version = "0.1.1", path = "crates/gs-quant-skills" }
 
 anyhow = "1"
 chrono = { version = "0.4", features = ["serde"] }

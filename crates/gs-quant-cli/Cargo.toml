@@ -6,6 +6,7 @@ rust-version.workspace = true
 license.workspace = true
 authors.workspace = true
 repository.workspace = true
+readme.workspace = true
 description = "Pure Rust CLI for gs-quant skill management, local scenario pricing, realized volatility, and offline backtesting."
 
 [[bin]]
